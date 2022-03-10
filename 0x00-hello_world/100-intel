@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc $CFIL=intel -S main.c -o main.s
+gcc -S $CFIL  main.c -o main.s
