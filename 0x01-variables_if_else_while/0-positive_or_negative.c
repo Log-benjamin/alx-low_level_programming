@@ -1,13 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/*
- * main - out put if n is negative zero or postive.
- */
-/*
- * nati is the coolest guy 
+/**
+ * main - Entry point
+ * Return: 0 (after complition)
  */
 int main(void)
+0
 {
 	int n;
 
