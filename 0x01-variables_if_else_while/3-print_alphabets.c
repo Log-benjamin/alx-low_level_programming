@@ -1,11 +1,11 @@
 #include <stdio.h>
 /**
  * Main - Entry Point
- * Return: 0 (after Completion)
+ *
+ * Return: Always 0 (Sucess)
  */
 /*Task 3*/
 int main(void)
-	/*Main function displays lower and upper chars using putchar */
 {
 	char L;
 
