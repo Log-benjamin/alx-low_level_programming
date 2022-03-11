@@ -10,7 +10,7 @@ int main(void)
 
 	for (L = 'a' ; L <= 'z' ; L++)
 	{
-		if ( L == 'e' || L == 'q' )
+		if (L == 'e' || L == 'q')
 		{
 			continue;
 		}
