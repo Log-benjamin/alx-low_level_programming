@@ -1,12 +1,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include <stdio.h>
-/* main - describes if a number is negative zero or positive
- * return - returns the value zero
- */
+/* nati is the coolest guy */
 int main(void)
 {
 	int n;
+
 	srand(time(0));
 
 	n = rand() - RAND_MAX / 2;
