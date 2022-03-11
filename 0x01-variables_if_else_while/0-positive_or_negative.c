@@ -5,8 +5,8 @@
  * main - Entry point
  * Return: 0 (after complition)
  */
+/* Task zero*/
 int main(void)
-0
 {
 	int n;
 
