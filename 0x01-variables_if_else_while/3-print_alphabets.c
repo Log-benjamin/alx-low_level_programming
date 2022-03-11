@@ -1,10 +1,9 @@
 #include <stdio.h>
 /**
- * Main - Entry Point
+ * main - Entry point
  *
- * Return: Always 0 (Sucess)
+ * Return: Always 0 (Success)
  */
-/*Task 3*/
 int main(void)
 {
 	char L;
