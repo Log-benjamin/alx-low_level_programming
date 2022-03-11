@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
  * Main - Entry Point
+ * Main - function displays the charcterrs in lower and uppr case
+ * using the putchar function.
  * Return: 0 (after Completion)
  */
 /*Task two*/
