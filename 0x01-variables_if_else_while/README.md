@@ -5,4 +5,8 @@ The 4 task program that prints the alphabet in lowercase, followed by a new line
 The 6 task program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 The 7 task program that prints all single digit numbers of base 10 starting from 0, followed by a new line.
 The 8 task program that prints all the numbers of base 16 in lowercase, followed by a new line.
-The 9 task program that prints all possible combinations of single-digit numbers.
+The 9 task program that prints all possible combinations of single-digit numbes
+
+The 10 task is a program that prints all possible different combinations of two digits.
+The 11 task is a program that prints all possible different combinations of three digits
+The 12 task is a program that prints all possible combinations of two two-digit numbers.`
