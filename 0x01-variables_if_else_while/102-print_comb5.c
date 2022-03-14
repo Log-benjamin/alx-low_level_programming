@@ -21,9 +21,9 @@ for (x = 48; x <= 57; x++)
 {
 for (y = 48; y  <= 57; y++)
 {
-	first =(i * 10) + j;
+	first = (i * 10) + j;
 	last = (x * 10) + y;
-if ( first >= last )
+if (first >= last)
 {
 continue;
 }
