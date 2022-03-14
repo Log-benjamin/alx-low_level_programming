@@ -19,7 +19,7 @@ int main(void)
 			{
 				for (y = 48; y  <= 57; y++)
 				{
-					if ((i + j >= x + y) || (x < i))
+					if ((i + j > x + y) || (x < i) || ( i ==x && j == y))
 				{
 					continue;
 				}
