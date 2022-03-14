@@ -17,18 +17,22 @@ int main(void)
 		{
 			for (x = 48; x <= 57; x++)
 			{
-				for (y = 48; y <= 57; y++)
+				for (y = 48; y  <= 57; y++)
 				{
-					if (i == x && j == y)
-					{
-						continue;
-					}
+				if (i == x && j == y)
+				{
+					continue;
+				}
+					if ((i + j >= x + y) || (x < i))
+				{
+					continue;
+				}
 					putchar(i);
 					putchar(j);
 					putchar(' ');
 					putchar(x);
 					putchar(y);
-					if ( i == 57 && j == 56 && x == 57 && y == 57)
+					if (i == 57 && j == 56 && x == 57 && y == 57)
 					{
 						break;
 					}
