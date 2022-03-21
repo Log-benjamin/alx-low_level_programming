@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _puts - prints a string, followed by a new line, to stdout.
- * @str: input string
+ * print_rev - prints a string, in reverse, followed by a new line.
+ * @s: input string
  */
 void print_rev(char *s)
 {
