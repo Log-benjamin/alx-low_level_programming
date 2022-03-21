@@ -11,10 +11,10 @@ void print_rev(char *s)
 	{
 	}
 	z = z - 1;
-       while (z >= 0)
-       {
-       	_putchar(s[z]);
+	while (z >= 0)
+	{
+	       _putchar(s[z]);
 	z--;
        }
-	_putchar('\n');       
+	_putchar('\n');
 }
