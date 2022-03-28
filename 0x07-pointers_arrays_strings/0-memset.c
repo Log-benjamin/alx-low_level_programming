@@ -9,7 +9,7 @@
 char *_memset(char *s, char b, unsigned int n)
 {
 	int x;
-	int y;
+	unsigned int y;
 
 	for (x = 0; s[x] != '\0'; x++)
 	{
