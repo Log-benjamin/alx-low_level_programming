@@ -7,36 +7,14 @@
  */
 char *_strchr(char *s, char c)
 {
-	int z = 0;
 	int k;
-	int y;
-	int count = 0;
 
 	for (k = 0; s[k] != '\0'; k++)
 	{
-	}
-	while (s[z] != '\0')
-	{
-		if (s[z] == c)
+		if (s[k] == c)
 		{
-			break;
-		}
-		else
-		{
-			count++;
+			return (s + k);
 		}
 	}
-	for (y = 0; y <= (k + 1) - count; y++)
-	{
-		if (y == k - count)
-		{
-			s[y] = '\0';
-		}
-		else
-		{
-			s[y] = s[count];
-			count++;
-		}
-	}
-	return (s);
+	return ('\0');
 }
