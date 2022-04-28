@@ -4,7 +4,7 @@
  * get_endianness - check endianness
  * Return: 0 if big endian, or 1 if little endian
  */
-nit get_endianness(void)
+int get_endianness(void)
 {
 	int num;
 
